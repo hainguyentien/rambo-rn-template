@@ -5,6 +5,20 @@
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
     /* Completeness */
-    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "baseUrl": ".",
+    "paths": {
+      "@Assets/*": ["./src/assets/*"],
+      "@Components/*": ["./src/components/*"],
+      "@Configs/*": ["./src/configs/*"],
+      "@Locales/*": ["./src/locales/*"],
+      "@Mock/*": ["./src/mock/*"],
+      "@Redux/*": ["./src/redux/*"],
+      "@Routes/*": ["./src/routes/*"],
+      "@Screens/*": ["./src/screens/*"],
+      "@Services/*": ["./src/services/*"],
+      "@Types/*": ["./src/types/*"],
+      "@Utils/*": ["./src/utils/*"]
+    },
   }
 }
